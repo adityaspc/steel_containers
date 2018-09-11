@@ -1,0 +1,471 @@
+/*
+Theme Name:     steelcontainerschild
+Description:    
+Author:         steel_containers
+Template:       steelcontainers
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+  /* Make the image fully responsive */
+ body,h1,h2,h3,h4,h5,h6,p,a,.choose-custom .vc_custom_heading{
+ 	font-family: 'Lato', sans-serif !important;
+ }
+ .choose-custom  h2,.get-started .stand_button , .common-button .vc_btn3-color-grey{
+ 	font-family: 'Lato', sans-serif !important;
+ }
+
+ p{
+	font-weight: 400;
+}
+a,a:focus, a:active {
+	text-decoration: none;
+	outline: 0 none;
+}
+.choose-custom h2 {
+	font-weight: 600 !important;
+	font-size: 40px;
+	color: #000;
+	font-family: 'Lato',! sans-serif important;
+	text-transform: uppercase;
+}
+.vc_col-sm-6 .wpb_wrapper p {
+	font-weight: 400;
+	color: #7f7f7f;
+	font-size: 18px;
+	line-height: 30px;
+}
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.header-nav .navbar-nav {
+	text-align: right !important;
+	display: block;
+	width: 100%;
+}
+.header-nav .navbar-brand:hover {
+	color: #0055db;
+}
+.header-nav .bg-dark.navbar-dark {
+	background-color: #fff !important;
+	position: absolute;
+	top: 55px;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	margin: 0 auto !important;
+	padding: 12px 30px;
+}
+.header-nav .navbar-brand {
+	color: #010101;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.header-nav .container {
+	max-width: 1140px;
+	position: relative;
+}
+.header-nav .navbar-nav a {
+	color: #010101;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.inner-slider h1 {
+	font-size: 84px;
+	font-weight: 600;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+.carousel-caption.inner-slider {
+	bottom: 160px;
+}
+.inner-slider p {
+	font-size: 20px;
+	font-weight: 400;
+	max-width: 570px;
+	margin: 0 auto;
+}
+.site-content {
+	padding-bottom: 0 !important;
+}
+/*main section Why Choose US CSS*/
+.choose-custom {
+	margin: 80px auto;
+}
+.common-button button.vc_general {
+	position: relative;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 0;
+	background-color: #0055b8 !important;
+	border: 2px solid #0055b8 !important;
+	color: #fff !important;
+	background-image: unset;
+	padding: 15px 30px;
+}
+.steel-services h2 {
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.common-button button,.common-button button.vc_general:hover {
+	background-color: #fff !important;
+	color: #0055b8 !important;
+	border-color: #0055b8 !important;
+}
+.get-started h2 {
+	background-color: #0055b8;
+	color: #fff;
+	padding: 18px 25px;
+	font-size: 30px;
+}
+.get-started .vc_column-inner {
+	padding: 0;
+	border: 1px solid #ddd;
+}
+.get-started .stand_button {
+	background-color: #0055b8;
+	display: inline-block;
+	font-size: 18px;
+	padding: 14px 25px;
+	font-weight: 500;
+	width: 100%;
+	max-width: 165px;
+	border-radius: 0;
+	margin-top: 30px;
+	border: 2px solid #0055b8;
+}
+.get-started .stand_button:hover,
+.get-started .stand_button:focus,
+.get-started .stand_button:active {
+	background-color: #fff;
+	color: #0055b8;
+	outline: 0 none;
+}
+.button_form {
+	width: 100%;
+	float: left;
+	margin-bottom: 35px;
+}
+.contact_info .col-sm-12 {
+	padding-left: 0;
+}
+.contact_info .col-sm-12 label {
+	margin-bottom: 10px;
+}
+.contact_info .error .validation_error {
+	color: #f00 !important;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.get-started form.quoteForm {
+	margin-left: 30px;
+}
+.get-started .vc_column-inner {
+	padding: 0 !important;
+}
+.fixed-width.vc_column_container {
+	max-width: 1183px;
+	margin: 0 auto !important;
+	float: none;
+}
+.background-img-custom .vc_column-inner {
+	padding-top: 0 !important;
+}
+.fixed-width {
+	padding: 70px 0;
+}
+.fixed-width p {
+	color: #fff;
+	font-size: 18px;
+}
+.quoteForm div p {
+	color: #000 !important;
+	font-size: 20px !important;
+}
+.quoteForm  label input {
+	display: inline-block;
+	width: auto;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.quoteForm div label {
+	margin-bottom: 25px;
+	font-weight: 400;
+	font-size: 18px;
+}
+.step3 label {
+	width: 50%;
+	float: left;
+}
+.contact_info #inpZipCode {
+	max-width: 400px;
+}
+.contact_info .contact-label {
+	margin-bottom: 0;
+}
+.contact_info p.contact_info_step {
+	color: #4BB543 !important;
+	line-height: 25px;
+	margin-top: 0;
+	font-size: 18px !important;
+	margin-bottom: 10px;
+}
+.contact_info label, .contact_info sup {
+	display: inline-block;
+}
+.contact_info sup {
+	font-size: 22px;
+	color: #f00;
+	top: 3px;
+	margin-left: 3px;
+}
+.contact_info .col-sm-6 {
+	padding-left: 0;
+}
+.contact_info .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+.contact_info .col-sm-6 input {
+	padding: 5px 15px;
+	margin-top: 10px;
+	/*margin-bottom: 10px;*/
+}
+.common-custom .wpb_wrapper .wpb_content_element .wpb_wrapper {
+	border: none;
+	text-align: center;
+	position: relative;
+	min-height: 175px;
+}
+.common-custom .wpb_wrapper {
+	border: 1px solid #ddd;
+	position: relative;
+}
+.common-custom  .wpb_content_element{
+	margin-bottom: 0;
+}
+.common-custom h2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: #0055b8;
+	padding-top: 32px;
+	color: #fff;
+	border: 2px solid #0055b8;
+	font-weight: 600;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%) translateY(-50%);
+}
+.common-custom p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.vc_custom_heading.custom-work {
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+.custom-services {
+	margin-bottom: 40px;
+}
+.common-custom .wpb_wrapper:hover {
+	background-color: #0055b8;
+}
+.common-custom h2::after {
+	content: "";
+	height: 108px;
+	width: 108px;
+	position: absolute;
+	background-color: transparent;
+	border-radius: 100%;
+	border: 4px solid #fff;
+	left: -6px;
+	top: -6px;
+}
+.common-custom .wpb_wrapper:hover {
+	background-color: #0055b8;
+	color: #fff;
+	cursor: pointer;
+}
+.common-custom .wpb_wrapper:hover h2 {
+	background-color: #fff;
+	color: #0055b8;
+	cursor: pointer;
+}
+.common-custom .wpb_wrapper:hover .common-custom h2 {
+	background-color: #fff;
+	color: #0055b8;
+}
+/*About US Section CSS Start*/
+.about_content .wpb_content_element {
+	margin-bottom: 15px;
+}
+.site-content-contain .site-content {
+	padding-top: 60px;
+}
+.about_content .wpb_content_element .wpb_wrapper p {
+	margin-bottom: 25px;
+}
+/*About US Section CSS End*/
+/*Form Designing Start*/
+.step1 .radio label {
+	width: 50%;
+	float: left;
+}
+.step2 .radio:first-child label {
+	width: 50%;
+	float: left;
+}
+.step3 .radio {
+	padding-right: 15px;
+}
+.step3 .radio label, .step3 .radio label input {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.step3 .radio p {
+	margin-bottom: 10px;
+	font-size: 18px !important;
+	margin-top: 20px;
+}
+.col-sm-6 .error p {
+	color: #f00 !important;
+	margin-bottom: 5px;
+	font-size: 16px !important;
+}
+.error p.validation_error {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*Form Designing End*/
+/*Footer CSS*/
+.footer-nav {
+	background-color: #0a0a0a;
+}
+.footer-nav .main-nav li {
+	padding-right: 15px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+	padding-right: .5rem;
+	padding-left: .5rem;
+}
+.footer-nav .main-nav li a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+.contact-nav .navbar-nav {
+	width: 100%;
+	text-align: center !important;
+}
+.contact-nav .navbar-nav .nav-item {
+	width: 33%;
+	display: inline-block;
+}
+.navbar.main-nav {
+	padding: 24px 16px;
+}
+.contact-nav {
+	padding: 0px 20px 30px;
+}
+.contact-nav .navbar-nav .nav-item a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+.copyright-section p {
+	font-size: 15px;
+	color: #fff;
+	padding: 13px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.copyright-section {
+	background-color: #000;
+}
+.contact-nav .navbar-nav .nav-item a span {
+	margin-right: 10px;
+}
+.footer-adds {
+	background-color: #0055b8;
+}
+.add-name.navbar-nav {
+	flex-direction: row;
+	padding: 70px 0px;
+	justify-content: space-between;
+}
+.fixed-width .custom-work {
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+.col-sm-12.add-name.navbar-nav li {
+	margin-left: 40px;
+}
+.col-sm-12.add-name.navbar-nav li:last-child {
+	margin-right: 40px;
+}
+ul li .fa.fa-phone {
+	transform: rotate(90deg);
+}
+.inner_banner h1 {
+	color: #fff;
+	font-size: 46px;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.inner_banner {
+	background: url(http://202.164.42.26:8181/steel_containers/wp-content/uploads/2018/09/New-Project.jpg);
+	height: 480px;
+	text-align: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	float: left;
+	background-size: cover;
+	position: relative;
+	padding: 0;
+}
+.about_content p{font-size:18px;}
+.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.form-control {
+	height: 100px;
+}
+.wpcf7-form input, .wpcf7-form textarea {
+	border-radius: 0;
+}
+.form-control:focus {
+	border-color: #bbb !important;
+	background: none !important;
+	box-shadow: none;
+}
+
+.submit_btn{
+	background-color: #0055b8 !important;
+border: 2px solid #0055b8
+}
+.navbar-expand-sm .navbar-nav a {
+	padding-right: .5rem;
+	padding-left: .5rem;
+}
+.step3 p {width: 100%;float: left;}
+
+ @media only screen and (max-width: 767px) {
+.vc_col-sm-4 .wpb_single_image.vc_align_left {
+	text-align: center;
+}
+}
